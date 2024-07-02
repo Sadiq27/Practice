@@ -10,7 +10,7 @@ using Practice.Models;
 namespace Practice.Repositories;
 public class UserRepository
 {
-private readonly string connectionString;
+private readonly string connectionString = "Server=localhost;Database=Practice;User Id=admin;Password=admin;TrustServerCertificate=True";
 
 public UserRepository(string connectionString)
     {
